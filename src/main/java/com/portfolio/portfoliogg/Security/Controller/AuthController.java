@@ -31,7 +31,7 @@ import org.springframework.stereotype.Component;
 
 @RestController
 @RequestMapping("/authentication")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfoliogabg.web.app/")
 @ComponentScan(basePackageClasses = MainSecurity.class)
 public class AuthController {
    
